@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Text.Json;
 using ArchitectureReconstructionPresentation.Models;
+using LibGit2Sharp;
 
 namespace ArchitectureReconstructionPresentation.Services
 {
@@ -137,7 +139,7 @@ namespace ArchitectureReconstructionPresentation.Services
         {
             return moduleFromFilePath(fileInfo);
         }
-        private List<string> extractImports(FileInfo fi)
+        public List<string> extractImports(FileInfo fi)
         {
             List<string> imports = new List<string>();         
             using var sr = fi.OpenText();
@@ -159,21 +161,24 @@ namespace ArchitectureReconstructionPresentation.Services
 
         
 
-        private string moduleFromFilePath(FileInfo fileInfo)
+        public string moduleFromFilePath(FileInfo fileInfo)
         {
             StringBuilder sb = new StringBuilder();
-            using var sr = fileInfo.OpenText();
-            string line;
-            while ((line = sr.ReadLine()) != null)
+            if (fileInfo.Exists)
             {
-                if(line.Trim().StartsWith("namespace"))
+                StreamReader sr = new StreamReader(fileInfo.FullName);
+                string line;
+                while ((line = sr.ReadLine()) != null)
                 {
-                    sb.Append(line.Replace("namespace", ""));
-                    sb.Append($".{fileInfo.Name}");
-                    sb.Replace(".cs", "");
-                    sb.Replace(".razor", "");
-                    sb.Replace(" ", "");
+                    if(line.Trim().StartsWith("namespace"))
+                    {
+                        sb.Append(line.Replace("namespace", ""));
+                        sb.Append($".{fileInfo.Name}");
+                        sb.Replace(".cs", "");
+                        sb.Replace(".razor", "");
+                        sb.Replace(" ", "");
 
+                    }
                 }
             }
             return sb.ToString();
@@ -185,27 +190,53 @@ namespace ArchitectureReconstructionPresentation.Services
             var nodes = new List<Nodes>();
             var edges = new List<Edge>();
             var random = new Random();
-            IEnumerable<FileInfo> fileList = new DirectoryInfo("/Users/bjergfelt/Documents/GitHub/ITU/ArchReconstrution/src/Blazorise").GetFiles("*.cs",SearchOption.AllDirectories).ToArray();
+            IEnumerable<FileInfo> fileList = new DirectoryInfo("/Users/bjergfelt/Documents/GitHub/ITU/Architectural-Reconstruction/Blazorise").GetFiles("*.cs",SearchOption.AllDirectories).ToArray();
 
+            
+            var count = 0;
+            var redX = 0;
+            var redY = 0;
+            var blueY = 0;
+            var blueX = 0;
+            var innerCount = 0;
+            
             foreach (var file in fileList)
-            {
+            {   
+               /*
+                * 
+                */
+                if (count % 50 == 0)
+                {
+                    blueX = 50;
+                    redX = 50 ;
+                    redY += 100;
+                    blueY += 100;
+                }
+                
                 var m = moduleFromFilePath(file);
                 if (!m.Equals(string.Empty) && !nodes.Exists(x => x.id.Equals(m)))
                 {
                     foreach (var each in extractImports(file).FindAll(x => !x.Contains("System")))
                     {
-                        if (each.Contains(Dependency.COMPONENTS) || each.Contains(Dependency.JS) || each.Contains(Dependency.BLAZOR_COMPONENTS))
+                       
+                        if (each.Contains(Dependency.COMPONENTS) || each.Contains(Dependency.JS))
                         {
-                            nodes.Add(new Nodes(m, random.Next(1000) , random.Next(1700), m, new Style(fill: "#FFFFFF"), "#FF0000"));
+                            redX += 70;
+                            //nodes.Add(new Nodes(m, redY , redX, string.Empty, new Style(fill: "#FFFFFF"), "#FF0000"));
                             break;
                         }
                         else if (each.Contains(Dependency.NETCORE))
                         {
-                            nodes.Add(new Nodes(m, random.Next(1000) , random.Next(1700), m, new Style(fill: "#FFFFFF"), "#0000FF"));
+                            blueX += 70;
+                            //nodes.Add(new Nodes(m, blueY, blueX, string.Empty, new Style(fill: "#00008B"), "#00008B"));
                             break;
                         }
+
+                        innerCount++;
                     }
                 }
+                
+                count++;
             }
             
             var data = new Data(nodes, edges);
@@ -213,6 +244,55 @@ namespace ArchitectureReconstructionPresentation.Services
             
             File.WriteAllText("wwwroot//allresults.json", jsonData);
         }
+        
+        public Data dependenciesGraphWithSize()
+        {    
+           // EvolutionAnalysis.ResetToState(new Repository("/Users/bjergfelt/Documents/GitHub/ITU/Architectural-Reconstruction/Blazorise"),0,0);
+           // ResetToState()
+            var nodes = new List<Nodes>();
+            var edges = new List<Edge>();
+            IEnumerable<FileInfo> fileList = new DirectoryInfo("/Users/bjergfelt/Documents/GitHub/ITU/Architectural-Reconstruction/Blazorise").GetFiles("*.cs",SearchOption.AllDirectories).ToArray();
+            
+            var blazorCount = 0;
+            var redX = 0;
+            var redY = 0;
+            var blueY = 0;
+            var blueX = 0;
+            var dotNetCount = 0;
+            
+            foreach (var file in fileList)
+            {
+                var m = moduleFromFilePath(file);
+                if (!m.Equals(string.Empty) && !nodes.Exists(x => x.id.Equals(m)))
+                {
+                    foreach (var each in extractImports(file).FindAll(x => !x.Contains("System")))
+                    {
+                       
+                        if (each.Contains(Dependency.COMPONENTS) || each.Contains(Dependency.JS))
+                        {
+                            //redX += 70;
+                            blazorCount++;
+                         //   nodes.Add(new Nodes(m, redY , redX, string.Empty, new Style(fill: "#FFFFFF"), "#FF0000"));
+                            break;
+                        }
+                        else if (each.Contains(Dependency.NETCORE))
+                        {
+                            //blueX += 70;
+                            dotNetCount++;
+                       //     nodes.Add(new Nodes(m, blueY, blueX, string.Empty, new Style(fill: "#00008B"), "#00008B"));
+                            break;
+                        }
+
+                    }
+                }
+            }
+            nodes.Add(new Nodes("hej", blueY, blueX, $"Blazor. Size: {blazorCount}",blazorCount, new Style(fill: "#FFFFFF"), "#FF0000"));
+            nodes.Add(new Nodes("dotnet", blueY, blueX, $".NET CORE. Size: {dotNetCount}",dotNetCount, new Style(fill: "#FFFFFF"), "#00008B"));
+            var data = new Data(nodes, edges);
+            return data;
+        }
+        
+        
         
         public void GenerateResultFile()
         {

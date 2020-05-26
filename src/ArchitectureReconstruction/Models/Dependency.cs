@@ -4,7 +4,7 @@ namespace ArchitectureReconstructionPresentation.Models
     {
         public static string NETDEPENDENCY = "System";
         
-        public static string NETCORE = "AspNetCore";
+        public static string NETCORE = "Microsoft.AspNetCore";
         
         public static string SYSTEMMODULE = "Blazorise";
 

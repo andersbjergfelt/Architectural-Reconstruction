@@ -1,0 +1,2495 @@
+{
+  "nodes": [
+    {
+      "id": "Blazorise.Material.MaterialJSRunner",
+      "label": "",
+      "y": 100,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bulma.FieldLabel",
+      "label": "",
+      "y": 100,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bulma.FieldBody",
+      "label": "",
+      "y": 100,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bulma.BulmaJSRunner",
+      "label": "",
+      "y": 100,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bulma.Field",
+      "label": "",
+      "y": 100,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Frolic.FrolicJSRunner",
+      "label": "",
+      "y": 100,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.FieldLabel",
+      "label": "",
+      "y": 100,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.FieldBody",
+      "label": "",
+      "y": 100,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.AntDesignJSRunner",
+      "label": "",
+      "y": 100,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.Dropdown",
+      "label": "",
+      "y": 100,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.SelectItem",
+      "label": "",
+      "y": 100,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.Select",
+      "label": "",
+      "y": 100,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AntDesign.Slider",
+      "label": "",
+      "y": 100,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bootstrap.BootstrapJSRunner",
+      "label": "",
+      "y": 100,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Navigation",
+      "label": "",
+      "y": 100,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.NavigationItem",
+      "label": "",
+      "y": 100,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalContent",
+      "label": "",
+      "y": 100,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FieldLabel",
+      "label": "",
+      "y": 100,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.PaginationItem",
+      "label": "",
+      "y": 100,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Buttons",
+      "label": "",
+      "y": 100,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Addons",
+      "label": "",
+      "y": 100,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalBackdrop",
+      "label": "",
+      "y": 100,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.IJSRunner",
+      "label": "",
+      "y": 200,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Help",
+      "label": "",
+      "y": 200,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableRow",
+      "label": "",
+      "y": 200,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.InlineField",
+      "label": "",
+      "y": 200,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.MemoEdit",
+      "label": "",
+      "y": 200,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Inline",
+      "label": "",
+      "y": 200,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Button",
+      "label": "",
+      "y": 200,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FieldBody",
+      "label": "",
+      "y": 200,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FileEntryStreamReader",
+      "label": "",
+      "y": 200,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseContainerComponent",
+      "label": "",
+      "y": 200,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Switch",
+      "label": "",
+      "y": 200,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarEnd",
+      "label": "",
+      "y": 200,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Form",
+      "label": "",
+      "y": 200,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DropdownDivider",
+      "label": "",
+      "y": 200,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ListGroup",
+      "label": "",
+      "y": 200,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalTitle",
+      "label": "",
+      "y": 200,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarItem",
+      "label": "",
+      "y": 200,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableRowCell",
+      "label": "",
+      "y": 200,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Progress",
+      "label": "",
+      "y": 200,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TabsContent",
+      "label": "",
+      "y": 200,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Card",
+      "label": "",
+      "y": 200,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseCheckComponent",
+      "label": "",
+      "y": 200,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarBrand",
+      "label": "",
+      "y": 200,
+      "x": 1660,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseTextInput",
+      "label": "",
+      "y": 200,
+      "x": 1730,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tab",
+      "label": "",
+      "y": 200,
+      "x": 1800,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Link",
+      "label": "",
+      "y": 200,
+      "x": 1870,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CollapseBody",
+      "label": "",
+      "y": 200,
+      "x": 1940,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BreadcrumbItem",
+      "label": "",
+      "y": 200,
+      "x": 2010,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.NumericEdit",
+      "label": "",
+      "y": 200,
+      "x": 2080,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.MediaRight",
+      "label": "",
+      "y": 200,
+      "x": 2150,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ListGroupItem",
+      "label": "",
+      "y": 200,
+      "x": 2220,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Title",
+      "label": "",
+      "y": 200,
+      "x": 2290,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardActions",
+      "label": "",
+      "y": 200,
+      "x": 2360,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FileEdit",
+      "label": "",
+      "y": 200,
+      "x": 2430,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardBody",
+      "label": "",
+      "y": 200,
+      "x": 2500,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.IComponentMapper",
+      "label": "",
+      "y": 200,
+      "x": 2570,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.JSRunner",
+      "label": "",
+      "y": 200,
+      "x": 2640,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Validation",
+      "label": "",
+      "y": 200,
+      "x": 2710,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardLink",
+      "label": "",
+      "y": 200,
+      "x": 2780,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Heading",
+      "label": "",
+      "y": 200,
+      "x": 2850,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TextEdit",
+      "label": "",
+      "y": 200,
+      "x": 2920,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableFooter",
+      "label": "",
+      "y": 200,
+      "x": 2990,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ComponentMapper",
+      "label": "",
+      "y": 200,
+      "x": 3060,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DropdownMenu",
+      "label": "",
+      "y": 200,
+      "x": 3130,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AlertDescription",
+      "label": "",
+      "y": 300,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.LayoutSiderContent",
+      "label": "",
+      "y": 300,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Row",
+      "label": "",
+      "y": 300,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FieldHelp",
+      "label": "",
+      "y": 300,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Field",
+      "label": "",
+      "y": 300,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarDropdown",
+      "label": "",
+      "y": 300,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Breadcrumb",
+      "label": "",
+      "y": 300,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Check",
+      "label": "",
+      "y": 300,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DisplayHeading",
+      "label": "",
+      "y": 300,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardTitle",
+      "label": "",
+      "y": 300,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableHeaderCell",
+      "label": "",
+      "y": 300,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarDropdownItem",
+      "label": "",
+      "y": 300,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.LayoutContent",
+      "label": "",
+      "y": 300,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Fields",
+      "label": "",
+      "y": 300,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Modal",
+      "label": "",
+      "y": 300,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableHeader",
+      "label": "",
+      "y": 300,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CloseButton",
+      "label": "",
+      "y": 300,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ThemeGenerator",
+      "label": "",
+      "y": 300,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FigureImage",
+      "label": "",
+      "y": 300,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.PaginationLink",
+      "label": "",
+      "y": 300,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Dropdown",
+      "label": "",
+      "y": 300,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarMenu",
+      "label": "",
+      "y": 300,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Alert",
+      "label": "",
+      "y": 300,
+      "x": 1660,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Badge",
+      "label": "",
+      "y": 300,
+      "x": 1730,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseSizableFieldComponent",
+      "label": "",
+      "y": 300,
+      "x": 1800,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseComponent",
+      "label": "",
+      "y": 300,
+      "x": 1870,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FigureCaption",
+      "label": "",
+      "y": 300,
+      "x": 1940,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Icon",
+      "label": "",
+      "y": 300,
+      "x": 2010,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TimeEdit",
+      "label": "",
+      "y": 300,
+      "x": 2080,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalBody",
+      "label": "",
+      "y": 300,
+      "x": 2150,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.SelectItem",
+      "label": "",
+      "y": 300,
+      "x": 2220,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Addon",
+      "label": "",
+      "y": 300,
+      "x": 2290,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tabs",
+      "label": "",
+      "y": 300,
+      "x": 2360,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Media",
+      "label": "",
+      "y": 300,
+      "x": 2430,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Bar",
+      "label": "",
+      "y": 300,
+      "x": 2500,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseTextComponent",
+      "label": "",
+      "y": 300,
+      "x": 2570,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Figure",
+      "label": "",
+      "y": 300,
+      "x": 2640,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableRowHeader",
+      "label": "",
+      "y": 300,
+      "x": 2710,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseInputComponent",
+      "label": "",
+      "y": 300,
+      "x": 2780,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TableBody",
+      "label": "",
+      "y": 300,
+      "x": 2850,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.TabPanel",
+      "label": "",
+      "y": 300,
+      "x": 2920,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ProgressBar",
+      "label": "",
+      "y": 300,
+      "x": 2990,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalHeader",
+      "label": "",
+      "y": 300,
+      "x": 3060,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Panel",
+      "label": "",
+      "y": 400,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BaseValidationSummary",
+      "label": "",
+      "y": 400,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Select",
+      "label": "",
+      "y": 400,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.RemoteFileEntryStreamReader",
+      "label": "",
+      "y": 400,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Accordion",
+      "label": "",
+      "y": 400,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Validations",
+      "label": "",
+      "y": 400,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Paragraph",
+      "label": "",
+      "y": 400,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Divider",
+      "label": "",
+      "y": 400,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarLink",
+      "label": "",
+      "y": 400,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AddonLabel",
+      "label": "",
+      "y": 400,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Collapse",
+      "label": "",
+      "y": 400,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.MediaBody",
+      "label": "",
+      "y": 400,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ModalFooter",
+      "label": "",
+      "y": 400,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardSubtitle",
+      "label": "",
+      "y": 400,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Control",
+      "label": "",
+      "y": 400,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.LayoutHeader",
+      "label": "",
+      "y": 400,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BreadcrumbLink",
+      "label": "",
+      "y": 400,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Slider",
+      "label": "",
+      "y": 400,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarDropdownToggle",
+      "label": "",
+      "y": 400,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Dynamic",
+      "label": "",
+      "y": 400,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarDropdownMenu",
+      "label": "",
+      "y": 400,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.MediaLeft",
+      "label": "",
+      "y": 400,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Label",
+      "label": "",
+      "y": 400,
+      "x": 1660,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Radio",
+      "label": "",
+      "y": 400,
+      "x": 1730,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Table",
+      "label": "",
+      "y": 400,
+      "x": 1800,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DropdownToggle",
+      "label": "",
+      "y": 400,
+      "x": 1870,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ThemeProvider",
+      "label": "",
+      "y": 400,
+      "x": 1940,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Layout",
+      "label": "",
+      "y": 400,
+      "x": 2010,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DateEdit",
+      "label": "",
+      "y": 400,
+      "x": 2080,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.RadioGroup",
+      "label": "",
+      "y": 400,
+      "x": 2150,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ValidationError",
+      "label": "",
+      "y": 400,
+      "x": 2220,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarToggler",
+      "label": "",
+      "y": 400,
+      "x": 2290,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DropdownItem",
+      "label": "",
+      "y": 400,
+      "x": 2360,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Container",
+      "label": "",
+      "y": 400,
+      "x": 2430,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.AlertMessage",
+      "label": "",
+      "y": 400,
+      "x": 2500,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.SelectGroup",
+      "label": "",
+      "y": 400,
+      "x": 2570,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tooltip",
+      "label": "",
+      "y": 400,
+      "x": 2640,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.LayoutFooter",
+      "label": "",
+      "y": 400,
+      "x": 2710,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Pagination",
+      "label": "",
+      "y": 400,
+      "x": 2780,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.LayoutSider",
+      "label": "",
+      "y": 400,
+      "x": 2850,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ValidationSuccess",
+      "label": "",
+      "y": 400,
+      "x": 2920,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardText",
+      "label": "",
+      "y": 400,
+      "x": 2990,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.BarStart",
+      "label": "",
+      "y": 400,
+      "x": 3060,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Column",
+      "label": "",
+      "y": 500,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardHeader",
+      "label": "",
+      "y": 500,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardImage",
+      "label": "",
+      "y": 500,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ValidationNone",
+      "label": "",
+      "y": 500,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Text",
+      "label": "",
+      "y": 500,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardFooter",
+      "label": "",
+      "y": 500,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.ColorEdit",
+      "label": "",
+      "y": 500,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CollapseHeader",
+      "label": "",
+      "y": 500,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CardGroup",
+      "label": "",
+      "y": 500,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.DateEditTest",
+      "label": "",
+      "y": 500,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.ButtonTest",
+      "label": "",
+      "y": 500,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "BasicTestApp.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 120,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "BasicTestApp.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 190,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "BasicTestApp.Client.Program",
+      "label": "",
+      "y": 500,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.RC.Startup",
+      "label": "",
+      "y": 500,
+      "x": 260,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.RC.Program",
+      "label": "",
+      "y": 500,
+      "x": 330,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.AntDesign.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 400,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.AntDesign.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 470,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Frolic.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 540,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Frolic.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 610,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 680,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 750,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.AntDesign.Program",
+      "label": "",
+      "y": 500,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.Program",
+      "label": "",
+      "y": 500,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.Bulma.Program",
+      "label": "",
+      "y": 500,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.Material.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 820,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Material.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 890,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bulma.Server.Startup",
+      "label": "",
+      "y": 500,
+      "x": 960,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bulma.Server.Program",
+      "label": "",
+      "y": 500,
+      "x": 1030,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Frolic.Program",
+      "label": "",
+      "y": 500,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.Material.Program",
+      "label": "",
+      "y": 500,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Components.Autocomplete",
+      "label": "",
+      "y": 500,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Components.DropdownList",
+      "label": "",
+      "y": 600,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Components.SelectList",
+      "label": "",
+      "y": 600,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Snackbar.Snackbar",
+      "label": "",
+      "y": 600,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Snackbar.SnackbarAction",
+      "label": "",
+      "y": 600,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Snackbar.SnackbarBody",
+      "label": "",
+      "y": 600,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.DataGrid",
+      "label": "",
+      "y": 600,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridRowEdit",
+      "label": "",
+      "y": 600,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridCellEdit",
+      "label": "",
+      "y": 600,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.DataGridCommandColumn.",
+      "label": "",
+      "y": 600,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.CommandContext",
+      "label": "",
+      "y": 600,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridModal",
+      "label": "",
+      "y": 600,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.BaseDataGridComponent",
+      "label": "",
+      "y": 600,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridAggregateRow",
+      "label": "",
+      "y": 600,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.DataGridAggregate",
+      "label": "",
+      "y": 600,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.DataGridColumn",
+      "label": "",
+      "y": 600,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridNewCommand",
+      "label": "",
+      "y": 600,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridRow",
+      "label": "",
+      "y": 600,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid.BaseDataGridColumn",
+      "label": "",
+      "y": 600,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridRowCommand",
+      "label": "",
+      "y": 600,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridDetailRow",
+      "label": "",
+      "y": 600,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridCell",
+      "label": "",
+      "y": 600,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.DataGrid._DataGridClearFilterCommand",
+      "label": "",
+      "y": 600,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.JS",
+      "label": "",
+      "y": 600,
+      "x": 1660,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.BarChart",
+      "label": "",
+      "y": 600,
+      "x": 1730,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.ChartAdapter",
+      "label": "",
+      "y": 600,
+      "x": 1800,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.LineChart",
+      "label": "",
+      "y": 600,
+      "x": 1870,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.Chart",
+      "label": "",
+      "y": 600,
+      "x": 1940,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.PolarAreaChart",
+      "label": "",
+      "y": 600,
+      "x": 2010,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.BaseChart",
+      "label": "",
+      "y": 600,
+      "x": 2080,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.HorizontalBarChart",
+      "label": "",
+      "y": 600,
+      "x": 2150,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.RadarChart",
+      "label": "",
+      "y": 700,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.DoughnutChart",
+      "label": "",
+      "y": 700,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.PieChart",
+      "label": "",
+      "y": 700,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.Streaming.JS",
+      "label": "",
+      "y": 700,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.Streaming.ChartStreaming",
+      "label": "",
+      "y": 700,
+      "x": 400,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Charts.Streaming.ChartStreamingAdapter",
+      "label": "",
+      "y": 700,
+      "x": 470,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarLabel",
+      "label": "",
+      "y": 700,
+      "x": 540,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.Sidebar",
+      "label": "",
+      "y": 700,
+      "x": 610,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarSubItem",
+      "label": "",
+      "y": 700,
+      "x": 680,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarItem",
+      "label": "",
+      "y": 700,
+      "x": 750,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarNavigation",
+      "label": "",
+      "y": 700,
+      "x": 820,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarContent",
+      "label": "",
+      "y": 700,
+      "x": 890,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarBrand",
+      "label": "",
+      "y": 700,
+      "x": 960,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarFooter",
+      "label": "",
+      "y": 700,
+      "x": 1030,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Sidebar.SidebarLink",
+      "label": "",
+      "y": 700,
+      "x": 1100,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Providers.EmptyJSRunner",
+      "label": "",
+      "y": 700,
+      "x": 1170,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Providers.EmptyClassProvider",
+      "label": "",
+      "y": 700,
+      "x": 1240,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Utils.EventArgsMapper",
+      "label": "",
+      "y": 700,
+      "x": 1310,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Utils.EditContextValidator",
+      "label": "",
+      "y": 700,
+      "x": 1380,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.NumericEditAdapter",
+      "label": "",
+      "y": 700,
+      "x": 1450,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.CloseActivatorAdapter",
+      "label": "",
+      "y": 700,
+      "x": 1520,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.FileEditAdapter",
+      "label": "",
+      "y": 700,
+      "x": 1590,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.E2ETests.Infrastructure.BasicTestAppTestBase",
+      "label": "",
+      "y": 700,
+      "x": 1660,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.Mocks.MockButton",
+      "label": "",
+      "y": 700,
+      "x": 1730,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.Mocks.MockDateEdit",
+      "label": "",
+      "y": 700,
+      "x": 1800,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.Components.SelectNavigationComponentTest",
+      "label": "",
+      "y": 800,
+      "x": 120,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Tests.Helpers.BlazoriseConfig",
+      "label": "",
+      "y": 800,
+      "x": 190,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.Demo.AntDesign.Server.Controllers.SampleDataController",
+      "label": "",
+      "y": 800,
+      "x": 120,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Bootstrap.Server.Controllers.SampleDataController",
+      "label": "",
+      "y": 800,
+      "x": 190,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "TodoApp.BaseTodoItems",
+      "label": "",
+      "y": 800,
+      "x": 260,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    },
+    {
+      "id": "Blazorise.E2ETests.Infrastructure.ServerFixtures.AspNetSiteServerFixture",
+      "label": "",
+      "y": 800,
+      "x": 260,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.E2ETests.Infrastructure.ServerFixtures.StaticSiteServerFixture",
+      "label": "",
+      "y": 800,
+      "x": 330,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.E2ETests.Infrastructure.ServerFixtures.WebHostServerFixture",
+      "label": "",
+      "y": 800,
+      "x": 400,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.E2ETests.Infrastructure.ServerFixtures.DevHostServerFixture",
+      "label": "",
+      "y": 800,
+      "x": 470,
+      "style": {
+        "fill": "#00008B"
+      },
+      "color": "#00008B"
+    },
+    {
+      "id": "Blazorise.Demo.Pages.Tests.LiveChartsPage",
+      "label": "",
+      "y": 800,
+      "x": 330,
+      "style": {
+        "fill": "#FFFFFF"
+      },
+      "color": "#FF0000"
+    }
+  ],
+  "edges": []
+}

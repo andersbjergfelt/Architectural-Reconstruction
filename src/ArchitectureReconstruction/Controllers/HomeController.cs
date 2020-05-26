@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -28,11 +29,14 @@ namespace ArchitectureReconstructionPresentation.Controllers
         public string GetResult()
         {
             DataGathering dg = new DataGathering();
-            
-            dg.GenerateResultFile();
-            dg.dependenciesGraph();
-            string allText = System.IO.File.ReadAllText(@"wwwroot//allresults.json");
 
+            
+            //dg.GenerateResultFile();
+            //dg.dependenciesGraph();
+            //string allText = System.IO.File.ReadAllText(@"wwwroot//allresults.json");
+
+            
+           string allText = JsonSerializer.Serialize(EvolutionAnalysis.Timeline(), new JsonSerializerOptions(){WriteIndented = true});
             return allText;
         }
 

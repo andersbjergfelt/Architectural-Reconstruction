@@ -37,7 +37,7 @@ fetch('/Home/GetResult')
     .then(data => {
         const graph = new G6.Graph({
             container: 'container',
-            width: 1920,
+            width: screen.width,
             height: screen.height,
             layout: {
                 type: 'mds',
